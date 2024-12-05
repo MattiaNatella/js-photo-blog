@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  background-image: url(img/wall.png);
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-image: url(img/cork.png);
+}
+
+
+/**** UTILITIES****/
+
+/* .mn-card {
+  width: 300px;
+} */
+
+/******HEADER******/
+
+header p {
+  font-size: 6rem;
+  font-family: "Abel", sans-serif;
+  font-weight: bold;
+  font-style: oblique;
+  
+}
+
+div.card {
+  box-shadow: 3px 3px rgb(0 0 0 / 0.2);
+   font-family: "Dancing Script";
+  font-weight: 100;
+  position: relative;
+}
+
+.card img:first-child {
+  width: 30px;
+  position: absolute;
+  left: 50%;
+  top: -10px;
+  transform: translate(-50%);
+}
+

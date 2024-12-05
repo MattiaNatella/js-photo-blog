@@ -2,8 +2,6 @@ Photo Blog
 
 ===
 
-
-
 esercizio di oggi: **Photo Blog**
 
 repo: js-photo-blog
