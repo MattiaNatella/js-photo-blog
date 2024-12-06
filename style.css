@@ -6,7 +6,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   background-image: url(img/cork.png);
 }
@@ -20,9 +19,14 @@ header {
 }
 
 main {
-  min-height: 100px;
+  margin-top: -20px;
 }
 
+/****UTILITIES****/
+
+.overflow-hidden {
+  overflow: hidden;
+}
 
 /******HEADER******/
 

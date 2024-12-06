@@ -4,9 +4,7 @@ const limit = 6
 const overlay = document.getElementById('over-lay')
 const overlayImg = document.getElementById('overlayImg')
 const closeOverlay = document.getElementById('closeOverlay')
-
-console.log(overlay);
-
+const html = document.querySelector('html')
 
 axios.get(endPoint + limit)
   .then(res => {
@@ -26,7 +24,7 @@ Cliccando invece il button di chiusura, l’overlay scompare nuovamente.
         card.addEventListener('click', (event) => {
           overlay.classList.toggle('d-none')
           overlayImg.src = event.target.src
-          console.log(event.target.src)
+          html.classList.add('overflow-hidden')
         })
       }
 
@@ -38,7 +36,9 @@ Cliccando invece il button di chiusura, l’overlay scompare nuovamente.
 
 closeOverlay.addEventListener('click', () =>{
   overlay.classList.toggle('d-none')
+  html.classList.toggle('overflow-hidden')
 })
+
 
 //FUNCTIONS
 
