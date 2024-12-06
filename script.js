@@ -1,5 +1,5 @@
 const endPoint = "https://jsonplaceholder.typicode.com/photos?_limit="
-const limit = 9
+const limit = 6
 axios.get(endPoint + limit)
   .then(res => {
     let i = 0
@@ -9,6 +9,19 @@ axios.get(endPoint + limit)
      }
 
      })
+
+/*
+**Milestone 2**
+
+Facciamo sparire l’overlay con l’aiuto di una classe CSS che imposti il `display: none` .
+Dopodiché facciamo sì che cliccando una qualunque foto. L’overlay ricompaia.
+Cliccando invece il button di chiusura, l’overlay scompare nuovamente.
+*/
+
+
+
+
+
 
      //FUNCTIONS
 
