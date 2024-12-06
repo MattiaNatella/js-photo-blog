@@ -35,9 +35,18 @@ header p {
 
 div.card {
   box-shadow: 3px 3px rgb(0 0 0 / 0.2);
-   font-family: "Dancing Script";
+  font-family: "Dancing Script";
   font-weight: 100;
   position: relative;
+  transition:0.3s ease-out;
+}
+
+div.card:hover {
+transform: rotate(15deg)
+           scale(1.1);
+box-shadow: 30px 30px rgb(0 0 0 / 0.2);
+z-index: 1;
+
 }
 
 .card img:first-child {
